@@ -1,0 +1,72 @@
+body{
+    margin:0 auto;vertical-align:middle;
+    background: rgb(168,187,193);
+    background: radial-gradient(circle, rgba(168,187,193,0.5945728633250176) 41%, rgba(168,187,193,1) 73%);
+}
+
+.tabla{
+    height: 450px;;
+    width:450px; 
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    line-height: normal;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-58%,-50%);
+}
+
+.tabla div{   
+    background-color:rgb(161, 161, 161);
+    /* background-color:transparent ; */
+    background-position: center;
+    color:black;
+    box-shadow: inset 3px 3px 8px rgb(192, 190, 190), inset -3px -3px 5px #777;
+    font-family: "Lucida Console", "Courier New", monospace;
+    float:left;
+    height: 38px;;
+    width:38px;
+    border-style: solid;
+    border-radius: 0.5%;
+    border-color: black;
+}
+.tabla div:hover{
+    background-color: rgb(187, 187, 187);
+}
+
+.board{
+    text-align:center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size:50px;
+    padding-top:20px;
+}
+
+.instructions{
+    position: fixed;
+    text-align:center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size:25px;
+    bottom:10%;
+    width:100%;
+}
+
+button{
+    background-color: grey;
+    color: rgb(213, 220, 223);
+    margin-left: 45%;
+    margin-right:45%;
+    margin-top:1vmax;
+    border:none;
+    border-radius:8px;
+    padding: 8px 25px;
+    font-size: 20px;
+    transition-duration: 0.3s;
+    box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2), 0 6px 16px 0 rgba(0,0,0,0.19);
+}
+button:hover{
+    background-color:rgb(161, 161, 161) ;
+}
+
+
